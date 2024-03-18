@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * Find the pairs whose sum equals to target. Avoid duplicate pairs.
+ * Find the unique pairs in the given array whose sum equal to target.
  * <br/>
  * Time complexity should be O(n)
  */
