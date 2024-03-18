@@ -1,16 +1,28 @@
 # Algorithms
 Algorithms for different problems.
 
-## [PairSum.java](src/main/java/PairSum.java) O(n)
-Find the unique pairs in the given array whose sum equal to target.
+## [PairSum](src/main/java/PairSum.java) O(n)
+Find the unique pairs in the given array whose sum equal to given target number.
 
-Example: arr = [3, 2, 7, 1, 8, 9, 4, 5, 6]
+### Example 1:
+<strong>Input: </strong> target = 11, arr = [3, 2, 7, 1, 8, 9, 4, 5, 6]
 
-target = 11
+<strong>Output: </strong>
+(3, 8)
+(4, 7)
+(5, 6)
+(2, 9)
 
-then pairs will be (3, 8), (4, 7), (5, 6), (2, 9).
+<strong> Explanation: </strong> Pair (3, 8) sum is 3+8 = 11 which is equals to given target.
 
-## [WordLadder.java](src/main/java/WordLadder.java)
+### Example 2:
+<strong>Input: </strong> target = 18, arr = [3, 2, 7, 1, 8, 9, 4, 5, 6]
+
+<strong>Output: </strong> Not found.
+
+<strong> Explanation: </strong> There are no pairs in the given array whose sum will be 18.
+
+## [WordLadder](src/main/java/WordLadder.java)
 A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:
 
 * Every adjacent pair of words differs by a single letter.
